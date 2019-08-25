@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.2.1",
+    "babel-eslint": "^10.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "material-icons": "^0.3.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "react-virtualized": "^9.21.1",
+    "react-virtualized-tree": "^3.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,9 +30,14 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-google": "^0.13.0",
+    "eslint-plugin-react": "^7.14.3"
   }
 }
